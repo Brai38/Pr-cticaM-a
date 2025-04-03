@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>🎉 ¡Feliz Cumpleaños, Alma! 🎂</h1>
+    <p>Espero que tengas un día increíble lleno de alegría y sorpresas. Aquí algunos de nuestros mejores momentos juntos. ❤️</p>
+    <div class="gallery">
+        <!-- Las imágenes se cargarán dinámicamente con JavaScript -->
+    </div>
+
+    <script>
+        // Lista de imágenes (debes cambiar los nombres por los tuyos)
+        const imagenes = ["foto1.jpg", "foto2.jpg", "foto3.jpg", "foto4.jpg"];
+
+        // Seleccionamos el contenedor de la galería
+        const gallery = document.querySelector(".gallery");
+
+        // Creamos un bucle que agregue cada imagen al HTML
+        imagenes.forEach(img => {
+            let imgElement = document.createElement("img");  // Creamos un <img>
+            imgElement.src = `fotosamigas/${img}`;  // Ruta de la imagen
+            imgElement.alt = "Foto de recuerdo";  
+            gallery.appendChild(imgElement);  // Agregamos la imagen a la galería
+        });
+    </script>
+</body>
+</html>
