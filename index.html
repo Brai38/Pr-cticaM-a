@@ -23,7 +23,7 @@
         // Creamos un bucle que agregue cada imagen al HTML
         imagenes.forEach(img => {
             let imgElement = document.createElement("img");  // Creamos un <img>
-            imgElement.src = `fotosamigas/${img}`;  // Ruta de la imagen
+            imgElement.src = `{img}`;  // Ruta de la imagen
             imgElement.alt = "Foto de recuerdo";  
             gallery.appendChild(imgElement);  // Agregamos la imagen a la galería
         });
