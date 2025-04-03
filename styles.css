@@ -8,12 +8,12 @@ body {
 
 h1 {
     color: #e91e63; /* Rosa fuerte */
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 p {
     color: #555;
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 
 .gallery {
@@ -25,15 +25,15 @@ p {
 }
 
 .gallery img {
-    width: 200px;
+    width: 400px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .gallery img:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 /* Animación para el texto de cumpleaños */
