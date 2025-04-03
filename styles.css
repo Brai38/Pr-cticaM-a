@@ -28,7 +28,7 @@ p {
 
 /* Estilo de las imágenes */
 .gallery img {
-    width: 800px;  /* Tamaño grande */
+    width: 400px;  /* Tamaño grande */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
